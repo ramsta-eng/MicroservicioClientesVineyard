@@ -9,6 +9,7 @@ import com.vineyard.microservicios_cliente.model.Cliente;
 import com.vineyard.microservicios_cliente.repository.ClienteRepository;
 
 import net.datafaker.Faker;
+@Profile("dev")
 @Component
 public class DataLoader implements CommandLineRunner{
 
