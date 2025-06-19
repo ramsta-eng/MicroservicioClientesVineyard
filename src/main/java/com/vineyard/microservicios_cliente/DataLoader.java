@@ -23,7 +23,6 @@ public class DataLoader implements CommandLineRunner{
         for (int i = 0; i < 10; i++) {
             //Genera y rellena los datos
             Cliente cliente = new Cliente();
-            cliente.setId(i+1);
             cliente.setNombre(faker.name().firstName());
             cliente.setAppaterno(faker.name().lastName());
             cliente.setCorreo(faker.internet().emailAddress());
