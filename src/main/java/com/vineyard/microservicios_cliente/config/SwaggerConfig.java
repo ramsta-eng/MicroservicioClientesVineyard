@@ -18,3 +18,5 @@ public class SwaggerConfig {
                         .description("Documentacionde la API para el sistema de clientes para Vineyard"));
     }
 }
+
+// Link swagger http://localhost:8080/doc/swagger-ui/index.html
