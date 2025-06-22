@@ -20,7 +20,7 @@ public class DataLoader implements CommandLineRunner{
         Faker faker = new Faker();
 
         //Generar clientes
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 1; i++) {
             //Genera y rellena los datos
             Cliente cliente = new Cliente();
             cliente.setNombre(faker.name().firstName());
