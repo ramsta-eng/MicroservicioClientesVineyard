@@ -1,4 +1,4 @@
-package com.vineyard.microservicios_cliente;
+package com.vineyard.microservicios_cliente.service;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
