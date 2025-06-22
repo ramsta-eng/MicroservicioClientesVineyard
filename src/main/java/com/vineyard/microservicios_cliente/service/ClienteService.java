@@ -30,7 +30,7 @@ public class ClienteService {
         return clienteRepository.save(cliente);
     }
 
-    public void delete(Long id) {
+    public void delete(long id) {
         clienteRepository.deleteById(id);
     }
 }
