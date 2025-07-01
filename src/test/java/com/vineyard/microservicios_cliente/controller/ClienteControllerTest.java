@@ -122,7 +122,7 @@ public class ClienteControllerTest {
 
         doNothing().when(clienteService).delete(1);
         
-        mockMvc.perform(delete("/api/estudiantes/1"))
+        mockMvc.perform(delete("/api/v1/clientes/1"))
                 .andExpect(status().isOk());
         verify(clienteService, times(1)).delete(1);
     }

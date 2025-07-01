@@ -46,7 +46,7 @@ public class ClienteController {
         return ResponseEntity.ok(clientes);
     }
 
-    // Recibe un cliente, lo envia a la base de datos, devuelve una respuesta con codigo 201 Created y si no un codigo 400 Bad Request
+    // Recibe un cliente, lo envia a la base de datos, devuelve una respuesta con codigo 201 Created y si no un codigo 404 Bad Request
     @PostMapping
     @Operation(summary = "Crear cliente", description =  "Ingresa datos sobre un cliente y lo crea")
     @ApiResponses(value = {

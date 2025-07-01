@@ -23,7 +23,7 @@ import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.*;
 
 @RestController
 @RequestMapping("/api/v2/clientes")
-@Tag(name = "Clientes V2", description = "Operaciones relacionadas con los clientes")
+@Tag(name = "Clientes V2", description = "Operaciones relacionadas con los clientes implementando HATEOAS")
 public class ClienteControllerV2 {
 
     @Autowired
